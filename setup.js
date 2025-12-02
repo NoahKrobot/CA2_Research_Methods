@@ -1,22 +1,52 @@
- document.addEventListener("DOMContentLoaded", () => {
-        fetch("dummyData.json")
-          .then((response) => {
-            if (!response.ok) {
-              throw new Error("Network response was not ok");
-            }
-            return response.json();
-          })
-          .then((data) => {
-            const posts = data.posts || [];
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("dummyData.json")
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      return response.json();
+    })
+    .then((data) => {
+      var posts = data.posts || [];
+      var currentTime = Math.floor(Date.now() / 1000); 
 
-            document.getElementById("posts-data-box").textContent =
-              JSON.stringify(posts, null, 2);
-         
-          })
-          .catch((error) => {
-            const msg = "Error fetching data: " + error;
-            document.getElementById("posts-data-box").textContent = msg;
-          });
+      posts.forEach((post) => {
+        var engagement =
+          post.number_of_votes +
+          post.number_of_clicks +
+          post.number_of_comments;
 
+        var timeFactor = Math.pow(currentTime - post.posted_at + 2, 1.8);
 
+        var score = (engagement / timeFactor) * 100000000;
+
+        post.score = score;
       });
+
+      document.getElementById("posts-data-box").textContent =
+        JSON.stringify(posts, null, 2);
+
+      const feedEl = document.getElementById("feed");
+
+      posts.forEach((post) => {
+        const div = document.createElement("div");
+        div.className = "post-item";
+
+        div.innerHTML = `
+          <h3>${post.published_by}</h3>
+          <p><strong>Tag:</strong> ${post.tag}</p>
+          <p><strong>Clicks:</strong> ${post.number_of_clicks}</p>
+          <p><strong>Votes:</strong> ${post.number_of_votes}</p>
+          <p><strong>Comments:</strong> ${post.number_of_comments}</p>
+          <p><strong>Score:</strong> ${post.score.toFixed(6)}</p>
+          <img src="${post.image}" alt="post image" style="width:150px;margin-top:10px;">
+        `;
+
+        feedEl.appendChild(div);
+      });
+    })
+    .catch((error) => {
+      const msg = "Error fetching data: " + error;
+      document.getElementById("posts-data-box").textContent = msg;
+    });
+});
