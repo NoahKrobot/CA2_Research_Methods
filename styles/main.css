@@ -10,7 +10,7 @@ h1 {
   color: #333;
 }
 
-#feed {
+.feed {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -18,10 +18,7 @@ h1 {
 }
 
 .post-item {
-  background-color: #fff;
-  border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  padding: 15px;
   width: 250px;
   transition: transform 0.2s, box-shadow 0.2s;
 }

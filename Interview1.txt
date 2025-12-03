@@ -1,0 +1,37 @@
+Variety: 
+
+How well did the feed cover full range of previously shown topics?
+feed 1: pretty well
+feed 2: bad
+feed 3: pretty well I guess
+
+Did any feed feel dominated by a certain topic or a number of topics?
+feed 1: no
+feed 2: no
+feed 1: yes => games and memes
+
+Which feed, if any, showed the most balanced mix between topics previously shown.
+feed 3 - there's not  lot of outdated ones
+
+***********************
+Freshness:
+Which feed, if any, pushed just one specific time category (new, old-but-relevant)?
+feed 2 pushed outdated ones
+
+Which feed, if any, showed the most balanced mix between new and older-but-relevant posts?
+feed 3
+
+Which feed, if any, felt most up to date?
+feed 3
+
+***********************
+Satisfaction:
+
+Which feed, if any, aligned the best with the previously shown topics?
+feed 3
+
+Which feed, if any, behaves like your favorite social media feed?
+feed 3 - it is a good balance of everything
+
+Which feed feeling, if any, would you like to have as your favorite social media feed?
+feed 3

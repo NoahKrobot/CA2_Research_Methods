@@ -51,14 +51,13 @@
       "tag": "food"
     },
 
-
     {
       "id": 106,
       "published_by": "Stanley Hudson",
       "number_of_clicks": 87,
-      "number_of_votes": 40,
-      "number_of_comments": 9,
-      "posted_at": 1764547200,
+      "number_of_votes": 400,
+      "number_of_comments": 200,
+      "posted_at": 1764446771,
       "image": "images/animals/animal1.jpg",
       "tag": "animals"
     },
@@ -77,7 +76,7 @@
       "published_by": "Angela Martin",
       "number_of_clicks": 120,
       "number_of_votes": 55,
-      "number_of_comments": 22,
+      "number_of_comments": 222,
       "posted_at": 1764547200,
       "image": "images/animals/animal3.jpg",
       "tag": "animals"
@@ -86,8 +85,8 @@
       "id": 109,
       "published_by": "Oscar Martinez",
       "number_of_clicks": 165,
-      "number_of_votes": 80,
-      "number_of_comments": 27,
+      "number_of_votes": 120,
+      "number_of_comments": 127,
       "posted_at": 1764547200,
       "image": "images/animals/animal4.jpg",
       "tag": "animals"
@@ -95,14 +94,13 @@
     {
       "id": 110,
       "published_by": "Phyllis Vance",
-      "number_of_clicks": 99,
-      "number_of_votes": 37,
-      "number_of_comments": 13,
+      "number_of_clicks": 199,
+      "number_of_votes": 137,
+      "number_of_comments": 153,
       "posted_at": 1764547200,
       "image": "images/animals/animal5.jpg",
       "tag": "animals"
     },
-
 
     {
       "id": 111,
@@ -155,14 +153,13 @@
       "tag": "memes"
     },
 
-
     {
       "id": 116,
       "published_by": "Holly Flax",
-      "number_of_clicks": 122,
-      "number_of_votes": 50,
-      "number_of_comments": 12,
-      "posted_at": 1764547200,
+      "number_of_clicks": 400,
+      "number_of_votes": 360,
+      "number_of_comments": 40,
+      "posted_at": 1764446771,
       "image": "images/movies/movie1.jpg",
       "tag": "movies"
     },
@@ -170,9 +167,9 @@
       "id": 117,
       "published_by": "David Wallace",
       "number_of_clicks": 200,
-      "number_of_votes": 88,
-      "number_of_comments": 21,
-      "posted_at": 1764547200,
+      "number_of_votes": 500,
+      "number_of_comments": 210,
+      "posted_at": 1764446771,
       "image": "images/movies/movie2.jpg",
       "tag": "movies"
     },
@@ -207,7 +204,6 @@
       "tag": "movies"
     },
 
-
     {
       "id": 121,
       "published_by": "Clark Green",
@@ -216,7 +212,7 @@
       "number_of_comments": 31,
       "posted_at": 1764547200,
       "image": "images/video_games/game1.jpg",
-      "tag": "video_games"
+      "tag": "games"
     },
     {
       "id": 122,
@@ -226,27 +222,27 @@
       "number_of_comments": 20,
       "posted_at": 1764547200,
       "image": "images/video_games/game2.jpg",
-      "tag": "video_games"
+      "tag": "games"
     },
     {
       "id": 123,
       "published_by": "Andy Bernard",
-      "number_of_clicks": 245,
-      "number_of_votes": 130,
-      "number_of_comments": 41,
-      "posted_at": 1764547200,
+      "number_of_clicks": 500,
+      "number_of_votes": 500,
+      "number_of_comments": 30,
+      "posted_at": 1764446771,
       "image": "images/video_games/game3.jpg",
-      "tag": "video_games"
+      "tag": "games"
     },
     {
       "id": 124,
       "published_by": "Erin Hannon",
       "number_of_clicks": 112,
-      "number_of_votes": 45,
-      "number_of_comments": 10,
-      "posted_at": 1764547200,
+      "number_of_votes": 450,
+      "number_of_comments": 100,
+      "posted_at": 1764446771,
       "image": "images/video_games/game4.jpg",
-      "tag": "video_games"
+      "tag": "games"
     },
     {
       "id": 125,
@@ -256,7 +252,7 @@
       "number_of_comments": 58,
       "posted_at": 1764547200,
       "image": "images/video_games/game5.jpg",
-      "tag": "video_games"
+      "tag": "games"
     }
   ]
 }
